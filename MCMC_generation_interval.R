@@ -210,7 +210,7 @@ hist(inc1); hist(inc2)
 xg=rgamma(n,shape=5.20^2/1.72^2,rate=5.20/1.72^2)
 hist(xg)
 mean(xg)
-xs=xg+inc1-inc2
+xs=xg+inc2-inc1
 hist(xs)
 mean(xs); quantile(xs, c(0.025,0.5,0.975))
 sd(xs)
